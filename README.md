@@ -13,4 +13,18 @@ To run callllama you you need to first install all the requirements.
 ### Linux:
 *First install cython, then the linux requirements.*  
 `pip install cython`  
-`pip install -r requirements_linux.txt`  
+`pip install -r requirements_linux.txt`
+
+## Docker
+
+### Build
+
+To build an image from the dockerfile, go into the folder and type the following code:
+
+    docker build -t callllama .
+
+### Run
+
+To run the image:
+
+    docker run callllama
